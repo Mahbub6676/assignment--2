@@ -283,7 +283,7 @@ span {
 .join {
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url("../assets/news-letter-bg.png");
+    background-image: url("assets/news-letter-bg.png");
     background-size: cover;
 }
 
