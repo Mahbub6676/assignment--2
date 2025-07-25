@@ -230,7 +230,7 @@ span {
 .latest-cards .card1 {
     width: 366px;
     height: 206px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("../assets/deal-bloom.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("assets/deal-bloom.png");
 }
 
 #card-2 {
@@ -240,7 +240,7 @@ span {
 .latest-cards .card2 {
     width: 753px;
     /* height: 423px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("../assets/deal-zabo.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -249,7 +249,7 @@ span {
 .latest-cards .card3 {
     width: 366px;
     height: 206px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("../assets/deal-ana.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("assets/deal-ana.png");
 
 
 }
