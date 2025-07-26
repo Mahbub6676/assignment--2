@@ -10,9 +10,7 @@
     box-sizing: border-box;
 }
 
-
-/* shared style */
-.width {
+.shared-width {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -29,9 +27,6 @@
     border: none;
     width: 270px;
 }
-
-
-/* navbar styles */
 
 .navbar {
     display: flex;
@@ -57,8 +52,6 @@
 
 }
 
-
-/* banner styles */
 .banner {
     display: flex;
     justify-content: center;
@@ -89,9 +82,6 @@ span {
 .banner .banner-img {
     max-width: 570px;
 }
-
-
-/* plants section style */
 
 .plants {
     margin: 200px auto;
@@ -145,7 +135,7 @@ span {
     margin-bottom: 15px;
 }
 
-/* plant-lover styles */
+
 .plants-lover {
     display: flex;
     gap: 150px;
@@ -194,7 +184,7 @@ span {
 }
 
 
-/* latest deal section styles */
+
 .latest {
     margin-top: 133px;
 }
@@ -239,7 +229,6 @@ span {
 
 .latest-cards .card2 {
     width: 753px;
-    /* height: 423px; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)100%), url("assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -279,15 +268,15 @@ span {
 }
 
 
-/* join section styles */
-.join {
-    max-width: 1440px;
+
+.join-section {
+    max-width: 100%;
     margin: 0 auto;
     background-image: url("assets/news-letter-bg.png");
     background-size: cover;
 }
 
-.join h1 {
+.join-section h1 {
     text-align: center;
     padding-top: 170px;
     margin-bottom: 23px;
@@ -322,16 +311,13 @@ input[type="email"] {
     width: 270px;
 }
 
-
-/* footer section styles*/
-
 .footer-section {
     display: flex;
     justify-content: space-around;
     margin: 60px auto;
 }
 
-.footer-section>div>img {
+.footer-section > div > img {
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -347,18 +333,17 @@ input[type="email"] {
 }
 
 
-/* mobile responsive */
+
 @media screen and (max-width: 668px) {
     .logo img {
         width: 100%;
     }
-
     .navbar,
     .banner,
     .plants-lover,
     .plants,
     .latest,
-    .join,
+    .join-section,
     .footer-section {
         padding: 0 10px;
         margin: 0 auto;
@@ -366,15 +351,12 @@ input[type="email"] {
         height: 100%;
     }
 
-    /* navbar */
 
     .navbar .menu-item .none {
         display: none;
     }
 
-    /* banner */
     .banner {
-
         margin: 0;
         flex-direction: column-reverse;
         gap: 20px;
@@ -392,8 +374,6 @@ input[type="email"] {
         margin-bottom: 20px;
     }
 
-    /* plants section */
-    .plants-title {}
 
     .cards {
         grid-template-columns: repeat(2, 1fr);
@@ -407,7 +387,6 @@ input[type="email"] {
         width: 100%;
     }
 
-    /* plants lover section */
     .plants-lover {
         margin-top: 20px;
         gap: 20px;
@@ -428,7 +407,6 @@ input[type="email"] {
         display: none;
     }
 
-    /* latest section */
     .latest {
         margin-bottom: 30px;
     }
@@ -448,8 +426,7 @@ input[type="email"] {
     }
 
 
-    .latest-cards .card2,
-    .card3 {
+    .latest-cards .card2, .card3 {
         width: 100%;
         margin: 0 auto;
     }
@@ -471,7 +448,6 @@ input[type="email"] {
         width: 150px;
     }
 
-    /* footer section */
     .footer-section {
         margin-top: 50px;
         margin-bottom: 200px;
